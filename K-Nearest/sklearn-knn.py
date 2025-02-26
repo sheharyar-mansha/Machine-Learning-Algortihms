@@ -5,7 +5,7 @@
 # from sklearn.metrics import accuracy_score
 
 # # Load dataset
-# data = pd.read_csv("D:/WORKSPACE/ML/iris_data.csv")
+# data = pd.read_csv("iris_data.csv")
 # x = data.iloc[:,[0,1,2,3]].values
 # y = data.iloc[:,[4]].values
 # y=np.ndarray.flatten(y)
@@ -34,7 +34,7 @@ from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
 # Load dataset
-data = pd.read_csv("D:/WORKSPACE/ML/iris_data.csv")
+data = pd.read_csv("iris_data.csv")
 x = data.iloc[:,[0,1,2,3]].values
 y = data.iloc[:,[4]].values
 y = np.ndarray.flatten(y)
