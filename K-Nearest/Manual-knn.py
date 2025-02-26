@@ -30,7 +30,7 @@ def predict(X_train, Y_train, testpoint, k):
 
 
 ####### CSV TSHIRTS #######
-data = pd.read_csv("D:/WORKSPACE/ML/Tshirts.csv")
+data = pd.read_csv("Tshirts.csv")
 X=data.iloc[:,[0,1]].values
 Y=data.iloc[:,[2]].values.flatten() #FLATTENING Y
 print('X = ', X)
